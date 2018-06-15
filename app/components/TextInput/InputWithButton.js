@@ -1,11 +1,9 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, TouchableHighlight, TextInput} from 'react-native';
 import PropTypes from 'prop-types';
 
-const InputWithButton = () => (
-  <View>
-    <Text>Test</Text>
-  </View>
-);
+import styles from './styles';
+
+const InputWithButton = () => null;
 
 export default InputWithButton;

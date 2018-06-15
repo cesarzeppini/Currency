@@ -9,7 +9,9 @@ export default () => (
   <Container>
     <StatusBar translucent={false} barStyle="light-content" />
     <Logo />
-    <InputWithButton />
-    <InputWithButton />
+      <InputWithButton
+        
+      />
+
   </Container>
 );
