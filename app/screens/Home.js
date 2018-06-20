@@ -31,11 +31,15 @@ class Home extends React.Component{
   handleSwapCurrency = () => {
     console.log('press swap currency');
   }
+
+  handleOptionsPress = () => {
+    console.log('handle options press');
+  }
   render(){
     return(
-      <Header></Header>
       <Container>
-        <StatusBar translucent={false} barStyle="light-content" />
+        <StatusBar translucent={false} barStyle="dark-content" />
+        <Header onPress={this.handleOptionsPress} />
         <Logo />
         <InputWithButton
           buttonText={TEMP_BASE_CURRENCY}
