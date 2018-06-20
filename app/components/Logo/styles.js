@@ -10,11 +10,11 @@ export default EStyleSheet.create({
   containerImage: {
     alignItems: 'center',
     justifyContent: 'center',
-    width: imageWidth,
-    height: imageWidth,
+    width: '$largeContainerSize',
+    height: '$largeContainerSize',
   },
   image: {
-    width: imageWidth / 2,
+    width: '$largeImageSize',
   },
   title: {
     marginTop: 24,
