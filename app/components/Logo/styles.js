@@ -18,6 +18,7 @@ export default EStyleSheet.create({
   },
   title: {
     marginTop: 24,
+    marginBottom: 24,
     fontSize: 24,
     fontWeight: 'bold',
     letterSpacing: -0.5,
